@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    margin :0;
+    padding:0;
+    font-family : sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('login.jpg');
+    background-size:cover;
+}
+
+.box
+{
+    width : 30rem;
+    height:25rem;
+    padding :4rem;
+    position :absolute;
+    top:50%;
+    left:50%;
+    background-color:none;
+    transform :translate(-50%,-50%);
+    text-align: center;
+}
+.box h1{
+    color :white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"], .box input[type = "password"]
+{
+    border :0;
+    background: none;
+    display :block;
+    margin :2rem auto;
+    text-align: center ;
+    border :0.2rem solid #fdfdfd;
+    padding :1.4rem 1rem;
+    width :20rem;
+    outline :none;
+    color :black;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+}
+
+.box input[type= "text"]:hover,.box input[type= "password"]:hover
+{
+    background :white;
+}
+
+.box input[type="text"]:focus , .box input[type = "password"]:focus
+{
+    width :28rem;
+    border-color:white;
+}
+
+.box input[type = "submit"]
+{
+    border :0;
+    background: none;
+    display :block;
+    margin :2rem auto;
+    text-align: center ;
+    border :0.2rem solid white;
+    padding :1.4rem 4rem;
+    outline :none;
+    color : white;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+    cursor :pointer;
+}
+.box input[type = "submit"]:hover
+{
+    background : white;
+}
+
+.box input[type="submit"]:focus
+{
+    width :15rem;
+    border-color:white;
+}
+
+#navbar{
+    display : flex;
+    align-items: center;
+}
+
+#navbar
+{
+    position :sticky;
+}
+
+/* logo and image */
+
+#logo{
+    margin: 1rem 3rem;
+}
+
+#logo img{
+    margin: 0.3rem 0.6rem;
+    height :5.6rem;
+}
+
+/* list styling */
+#navbar ul{
+    display : flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before{
+    content : "";
+    background-color: black;
+    position: absolute;
+    height : 100%;
+    width :100%;
+    z-index :-1;
+    opacity : 0.3;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem; /* no */
+}
+
+#navbar ul li a{
+    color :white;
+    display : block;
+    padding : 0.3rem 2.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color :black;
+    background-color: white;
+}
+#home p{
+    color :white;
+    text-align: center;
+    font-size :1.5rem; /* no */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:862px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:706px)
+{
+    html{
+        font-size: 35%;
+    }
+}
+
+@media(max-width:552px)
+{
+    html{
+        font-size: 25%;
+    }
+}
+
+@media(max-width:418px)
+{
+    html{
+        font-size: 20%;
+    }
+}
+
+@media(max-width:374px)
+{
+    html{
+        font-size: 5%;
+    }
+}

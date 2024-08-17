@@ -1,0 +1,244 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* navigation bar */
+#navbar{
+    display : flex;
+    align-items: center;
+}
+
+#navbar
+{
+    position :sticky;
+}
+
+/* logo and image */
+
+#logo{
+    margin: 0.6rem 2rem;
+}
+
+#logo img{
+    margin: 0.3rem 0.6rem;
+    height :5.6rem;
+}
+
+/* list styling */
+#navbar ul{
+    display : flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before{
+    content : "";
+    background-color: rgb(127, 136, 7);
+    position: absolute;
+    height : 100%;
+    width :100%;
+    z-index :-1;
+    opacity : 0.8;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem; /*no*/
+}
+
+#navbar ul li a{
+    color :white;
+    display : block;
+    padding : 0.3rem 2.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#navbar ul li a:hover{
+    color :black;
+    background-color: white;
+}
+
+/* home Section */
+#home
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('bg5.jpg');
+    height:10rem;
+    background-size:cover  ;
+    background-position: center;
+    display : flex;
+    flex-direction: column;
+    padding :5.5rem 20rem;
+    height : 60rem;
+    justify-content: center;
+    align-items: center;
+}
+#home p{
+    color :white;
+    text-align: center;
+    font-size :1.5rem;  /*no*/
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.h-primary
+{
+    color : white;
+    font-size : 3.8rem; /*no*/
+    padding :1.2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn
+{
+    padding : 0.6rem 2rem;
+    border :0.2rem solid white;
+    background-color: brown;
+    color: white;
+    margin: 1.7rem;
+    font-size: 1.5rem; /* no */
+    border-radius: 1rem;
+    cursor : pointer;
+    transition: 0.6s;
+}
+
+#fastfood
+{
+    width:100%;
+    padding :7rem 0;
+    background: #efefef ;
+}
+
+.title-text h1
+{
+    position: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size : 3.8rem;  /* no */
+
+}
+.service-box
+{
+    width :80%;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin :auto;
+}
+
+.single-service
+{
+    flex-basis : 48%;
+    text-align: center;
+    border-radius : 0.7rem;
+    margin-bottom: 2rem;
+    color :white;
+    position: relative;
+}
+
+.single-service img
+{
+    padding-top: 10%;
+    width :100%;
+    border-radius: 0.7rem;
+}
+
+.overlay
+{
+    width : 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+}
+
+.single-service:hover .overlay
+{
+    opacity:1;
+}
+
+.desc
+{
+    width:80%;
+    position: absolute;
+    bottom: 40%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.desc h1
+{
+    font-size: 5rem;
+}
+
+#fastfood
+{
+    padding-top:5%;
+    padding-bottom: 15%;
+}
+
+#Dinner
+{
+    padding-top:5%;
+    padding-bottom: 10%;
+}
+
+#SeaFood
+{
+    padding-bottom: 15%;
+}
+
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:862px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:706px)
+{
+    html{
+        font-size: 35%;
+    }
+}
+
+@media(max-width:552px)
+{
+    html{
+        font-size: 25%;
+    }
+}
+
+@media(max-width:418px)
+{
+    html{
+        font-size: 20%;
+    }
+}
+
+@media(max-width:374px)
+{
+    html{
+        font-size: 5%;
+    }
+}
+
