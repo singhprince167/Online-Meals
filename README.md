@@ -4,7 +4,7 @@ Online Meals Submitting this project entitled “Online Meals” as a part of th
 
 <img width="1348" height="647" alt="project3" src="https://github.com/user-attachments/assets/17bf0eb7-8581-44f5-aeb9-09ec034117a6" />
 
-Project Overview
+<b>Project Overview</b>
 The <b>Online Meals</b> website contains the following sections:
 - 🏠 Homepage  
 - 🔑 Login Page  
@@ -14,5 +14,9 @@ The <b>Online Meals</b> website contains the following sections:
 - 🍗 Dry Food  
 - 🛎️ Services  
 - 📞 Contact Us  
-- ℹ️ About Us  
+- ℹ️ About Us
+  
+<b>Tech Stack</b>
+- **Frontend:** HTML, CSS  
+- **Styling:** Custom CSS  
 
