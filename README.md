@@ -4,3 +4,15 @@ Online Meals Submitting this project entitled “Online Meals” as a part of th
 
 <img width="1348" height="647" alt="project3" src="https://github.com/user-attachments/assets/17bf0eb7-8581-44f5-aeb9-09ec034117a6" />
 
+Project Overview
+The <b>Online Meals</b> website contains the following sections:
+- 🏠 Homepage  
+- 🔑 Login Page  
+- 🍔 Fast Food  
+- 🍲 Dinner  
+- 🐟 Sea Food  
+- 🍗 Dry Food  
+- 🛎️ Services  
+- 📞 Contact Us  
+- ℹ️ About Us  
+
